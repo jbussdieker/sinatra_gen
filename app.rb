@@ -1,4 +1,7 @@
 require 'sinatra'
-get '/' do
-  "Hello World!"
+
+class TemplateApp < Sinatra::Base
+  get '/' do
+    "Hello World!"
+  end
 end
