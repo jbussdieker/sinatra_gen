@@ -1,0 +1,5 @@
+#!/usr/bin/ruby
+require 'sinatra_gen'
+
+options = SinatraGen::Options.parse(ARGV)
+SinatraGen.generate(options)

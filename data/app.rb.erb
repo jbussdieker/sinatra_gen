@@ -1,6 +1,6 @@
 require 'sinatra'
 
-class TemplateApp < Sinatra::Base
+class <%= name.capitalize %>App < Sinatra::Base
   get '/' do
     "Hello World!"
   end
